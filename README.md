@@ -9,3 +9,6 @@ Two fastq.qz files are provdied for taxonomic assignment using the "assignTaxono
 CyanoSeq0.9.6_dada2.fastq.gz is the Cyanobacterial data bases which contains 5365 cyanobacterial sequences and 123 chloroplast and bacterial sequences and can be used with cyanobacterial specific primers (i.e., those described by [Nübel et al., 1997](https://journals.asm.org/doi/10.1128/aem.63.8.3327-3332.1997)) 
 
 CyanoSeq0.9.6_SILVA138.1_dada2.fastq.gz is the cyanobacterial database merged with [SILVA](https://www.arb-silva.de/), current version 138.1, with the cyanobacterial sequences from SILVA removed and replaced with those curated here, and the Class “Cyanobacteriia” replaced with “Cyanophyceae”. This can be used general bacterial primers to fully understand the bacterial and cyanobacterial communities. 
+
+#Questions, comments, concerns?
+Leave a request or start a discussion here, or email me at flefler<at>ufl<dot>edu

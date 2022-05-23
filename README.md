@@ -12,4 +12,4 @@ CyanoSeq0.9.6_SILVA138.1_dada2.fastq.gz is the cyanobacterial database merged wi
 
 # Questions, comments, concerns?
 
-Leave a request or start a discussion here, or email me at flefler<at>ufl<dot>edu
+Leave a request or start a discussion here, or email me at flefler(at)ufl(dot)edu

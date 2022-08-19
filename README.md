@@ -4,7 +4,7 @@
 
 Version 1.0.0 available on Zenodo at https://zenodo.org/record/6745183
 
-Current version: 0.9.6
+Current version: 1.0.0, please use version on Zenodo!
 
 CyanoSeq is a curated database of cyanobacterial 16S rRNA sequences for taxonomic assignment of metagenomic/metabarcoding/amplicon reads. CyanoSeq is assembled from 16S rRNA sequences found within NCBI, with their taxonomies curated from cyanobacterial taxonomic literature as well as a systematic assessment of uncharacterized cyanobacterial sequences. When possible, the full length 16S rRNA sequences are provided, allowing use for several 16S rRNA primer sets to be used for metabarcoding, as well as full length 16S rRNA sequences for taxonomic assignment. The taxonomy of CyanoSeq is meant to reflect the current state of cyanobacterial taxonomy with curated clades of described and undescribed taxa. A provisional rank was given to those taxa that fell outside of the sensu stricto clade in an attempt to resolve polyphletic ranks. CyanoSeq does not aim to revise cyanobacterial taxonomy nor become a taxonomic authority, rather it serves as a starting point to identify and name monophyletic clades which do not belong to any established taxonomic rank and require revision. CyanoSeq currently contains 5365 cyanobacterial sequences and 123 chloroplast and bacterial sequences for use in classifying reads from metagenomic studies.
 

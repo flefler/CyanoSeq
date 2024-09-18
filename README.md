@@ -17,7 +17,7 @@ A few changes have been made since the last version, which are noted in the chan
 
 3: Greatly reduced the number of sequences, primarily in over represented genera (e.g., Dolichospermum, Prochlorococcus, etc) to reduce redundancy. This <I>should</I> help with classification, especially with the difficult groups (e.g., ADA-Aphanizomenon/Dolichospermum/Anabaena)
 
-4: To facilite de novo phylogenetic reconstruction, the file ```NCBI_ClassifiedSeqs.tsv``` is provided on Zenodo. [Example ```R``` script for manipulation can be found here](https://github.com/flefler/CyanoSeq/blob/main/RetrivingSeqs.md)
+4: To facilite de novo phylogenetic reconstruction, the file ```NCBI_ClassifiedSeqs.tsv``` is provided on Zenodo. [Example ```R``` script for manipulation can be found here](https://github.com/flefler/CyanoSeq/blob/main/RetrivingSeqs.md). Script on how this was done can be found [here](https://github.com/flefler/CyanoSeq/blob/main/ScrapeNCBI_Classify.md).
 
 ## Files
 

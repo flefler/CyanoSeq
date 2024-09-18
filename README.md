@@ -17,6 +17,8 @@ A few changes have been made since the last version, which are noted in the chan
 
 3: Greatly reduced the number of sequences, primarily in over represented genera (e.g., Dolichospermum, Prochlorococcus, etc) to reduce redundancy. This <I>should</I> help with classification, especially with the difficult groups (e.g., ADA-Aphanizomenon/Dolichospermum/Anabaena)
 
+4: To facilite de novo phylogenetic reconstruction, the file ```NCBI_ClassifiedSeqs.tsv``` is provided on Zenodo. [Example ```R``` script for manipulation can be found here](https://github.com/flefler/CyanoSeq/blob/main/RetrivingSeqs.md)
+
 ## Files
 
 Two fastq.qz files are provdied for taxonomic assignment using the "assignTaxonomy" function in [DADA2](https://benjjneb.github.io/dada2/tutorial.html) and [IdTaxa](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0521-5) classifiers. IDTAXA files have not been tested, please let me know if these work or not.

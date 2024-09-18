@@ -35,4 +35,4 @@ Fasta and nwk files of each order are provided to facilitate de novo phylogeneti
 
 # Questions, comments, concerns?
 
-Leave a request or start a discussion here, or email me at flefler(at)ufl(dot)edu
+Leave a request or start a discussion here

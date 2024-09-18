@@ -13,7 +13,7 @@ This update was done in conjuction with an update to the cyanobacterial taxonomy
 ## Key updates V1.3
 A few changes have been made since the last version, which are noted in the change log. A few key points listed below.
 
-1: We have switched from using SILVA 138.1 as the bacterial database, we will now use [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php)
+1: We have switched from using SILVA 138.1 as the bacterial database, we will now use [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php). Please cite ```Leidy-Alejandra G. Molano, Sara Vega-Abellaneda, Chaysavanh Manichanh. GSR-DB: a manually curated and optimized taxonomical database for 16S rRNA amplicon analysis. mSystems (2024) https://doi.org/10.1128/msystems.00950-23``` in addition to CyanoSeq if you use this version
 
 2: The family Prochlorococcaceae has proven to be a headache for curation and now has its taxonomy modeled after GTDB R220 with some minor changes see the Taxonomy_V1.3.xlsx files for more in depth information.
 

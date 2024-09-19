@@ -11,7 +11,7 @@ CyanoSeq is a curated database of cyanobacterial 16S rRNA sequences for taxonomi
 This update was done in conjuction with an update to the cyanobacterial taxonomy of [ITIS](https://itis.gov/) using resources such as [AlgaeBase](AlgaeBase.org), [CyanoDB](www.cyanodb.cz/), as well as recent literature. 
 
 ## Key updates V1.3
-A few changes have been made since the last version, which are noted in the change log. A few key points listed below.
+A few changes have been made since the last version, which are noted in the [change log](https://github.com/flefler/CyanoSeq/blob/main/ChangeLog.md). A few key points listed below.
 
 1: We have switched from using SILVA 138.1 as the bacterial database, we have now incorperated the bacteria, excluding cyanobacteria, from [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php). Please cite ```Leidy-Alejandra G. Molano, Sara Vega-Abellaneda, Chaysavanh Manichanh. GSR-DB: a manually curated and optimized taxonomical database for 16S rRNA amplicon analysis. mSystems (2024) https://doi.org/10.1128/msystems.00950-23``` in addition to CyanoSeq if you use this version
 

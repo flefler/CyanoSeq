@@ -13,7 +13,7 @@ This update was done in conjuction with an update to the cyanobacterial taxonomy
 ## Key updates V1.3
 A few changes have been made since the last version, which are noted in the [change log](https://github.com/flefler/CyanoSeq/blob/main/ChangeLog.md). A few key points listed below.
 
-1: We have switched from using SILVA 138.1 as the bacterial database, we have now incorperated the bacteria, excluding cyanobacteria, from [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php). Please cite ```Leidy-Alejandra G. Molano, Sara Vega-Abellaneda, Chaysavanh Manichanh. GSR-DB: a manually curated and optimized taxonomical database for 16S rRNA amplicon analysis. mSystems (2024) https://doi.org/10.1128/msystems.00950-23``` in addition to CyanoSeq if you use this version
+1: In addition to [SILVA 138.2](https://www.arb-silva.de/), we are also including additional files with [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php) as the bacterial database. Please cite ```Leidy-Alejandra G. Molano, Sara Vega-Abellaneda, Chaysavanh Manichanh. GSR-DB: a manually curated and optimized taxonomical database for 16S rRNA amplicon analysis. mSystems (2024) https://doi.org/10.1128/msystems.00950-23``` in addition to CyanoSeq if you use this version
 
 2: The family Prochlorococcaceae has proven to be a headache for curation and now has its taxonomy modeled after GTDB R220 with some minor changes, see the Taxonomy_V1.3.xlsx files for more in depth information.
 
@@ -27,9 +27,11 @@ Two fastq.qz files are provdied for taxonomic assignment using the "assignTaxono
 
 Scripts are now provided to create [QIIME2](https://docs.qiime2.org/2022.8/) classifiers. Thanks to Lucija Kranjer. Necessary files for are provided.
 
-CyanoSeq_1.3_dada2.fastq.gz is the Cyanobacterial data bases which contains 4174 cyanobacterial sequences with 123 chloroplast and bacterial sequences. This should only be used with cyanobacterial specific primers (i.e., those described by [Nübel et al., 1997](https://journals.asm.org/doi/10.1128/aem.63.8.3327-3332.1997)) 
+CyanoSeqV1.3_dada2.fastq.gz is the Cyanobacterial data bases which contains 4174 cyanobacterial sequences with 123 chloroplast and bacterial sequences. This should only be used with cyanobacterial specific primers (i.e., those described by [Nübel et al., 1997](https://journals.asm.org/doi/10.1128/aem.63.8.3327-3332.1997)) 
 
-CyanoSeq_1.3_GSRDB_dada2.fastq.gz is the cyanobacterial database merged with [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php), with the cyanobacterial sequences from GSR-DB removed and replaced with those curated here. This can be used general bacterial primers to characterize the total bacterial community. 
+CyanoSeqV1.3_GSRDB_dada2.fastq.gz is the cyanobacterial database merged with [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php), with the cyanobacterial sequences removed and replaced with those curated here. This can be used general bacterial primers to characterize the total bacterial community. 
+
+CyanoSeqV1.3_SILVA138.2_dada2.fastq.gz is the cyanobacterial database merged with [SILVA 138.2](https://www.arb-silva.de/), with the cyanobacterial sequences removed and replaced with those curated here. This can be used general bacterial primers to characterize the total bacterial community. 
 
 Fasta and nwk files of each order are provided to facilitate de novo phylogenetic tree reconstruction for novel sequences and use of tools such as [epa-ng](https://github.com/pierrebarbera/epa-ng) for placement of your ASVs
 

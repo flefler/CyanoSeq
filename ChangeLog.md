@@ -1,6 +1,6 @@
 # Changes in 1.3
 
-We have switched from using SILVA 138.1 as the bacterial database, we will now use [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php)
+In addition to [SILVA 138.2](https://www.arb-silva.de/), we also provide files with [GSR-DB](https://manichanh.vhir.org/gsrdb/index.php) as the bacterial database
 
 The family Prochlorococcaceae has proven to be a headache for curation and now has its taxonomy modeled after [GTDB R220](https://gtdb.ecogenomic.org/) with some minor changes, see below.
 There have been several provisional genera (i.e., GTDB names) added. See the Taxonomy_V1.3.xlsx files for more in depth information.

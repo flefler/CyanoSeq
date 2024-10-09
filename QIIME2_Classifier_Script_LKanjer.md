@@ -51,3 +51,41 @@ qiime feature-classifier fit-classifier-naive-bayes \
   --i-reference-taxonomy CyanoSeq_1.2.1_SILVA138.1_QIIME2_taxonomy.qza \
   --o-classifier classifier-CyanoSeq-341F-805R.qza
 ```
+# This is how I made the basic classifiers
+
+## CyanoSeq SILVA
+```
+qiime tools import \
+  --type 'FeatureData[Sequence]' \
+  --input-path CyanoSeqV1.3_SILVA138.2_QIIME2.fasta \
+  --output-path CyanoSeqV1.3_SILVA138.2_QIIME2.qza
+
+qiime tools import \
+  --type 'FeatureData[Taxonomy]' \
+  --input-format HeaderlessTSVTaxonomyFormat \
+  --input-path CyanoSeqV1.3_SILVA138.2_QIIME2_tax.tsv \
+  --output-path ref-taxonomy.qza
+
+qiime feature-classifier fit-classifier-naive-bayes \
+  --i-reference-reads CyanoSeqV1.3_SILVA138.2_QIIME2.qza \
+  --i-reference-taxonomy ref-taxonomy.qza \
+  --o-classifier CyanoSeqV1.3_SILVA138.2_QIIME2_classifier.qza
+```
+## CyanoSeq GSR-DB
+```
+qiime tools import \
+  --type 'FeatureData[Sequence]' \
+  --input-path CyanoSeqV1.3_GSRDB_QIIME2.fasta \
+  --output-path CyanoSeqV1.3_GSRDB_QIIME2.qza
+
+qiime tools import \
+  --type 'FeatureData[Taxonomy]' \
+  --input-format HeaderlessTSVTaxonomyFormat \
+  --input-path CyanoSeqV1.3_GSRDB_QIIME2_tax.tsv \
+  --output-path ref-taxonomy.qza
+
+qiime feature-classifier fit-classifier-naive-bayes \
+  --i-reference-reads CyanoSeqV1.3_GSRDB_QIIME2.qza \
+  --i-reference-taxonomy ref-taxonomy.qza \
+  --o-classifier CyanoSeqV1.3_GSRDB_QIIME2_classifier.qza
+```

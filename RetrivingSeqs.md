@@ -1,13 +1,13 @@
 # Example how to pull out sequences from the NCBI_ClassifiedSeqs.tsv
 
-You will need some familiarity with R, and the packages [tidyverse](https://www.tidyverse.org/) and [Biostrings](https://github.com/Bioconductor/Biostrings) are needed.
+You will need some familiarity with ```R```, and the packages [tidyverse](https://www.tidyverse.org/) and [Biostrings](https://github.com/Bioconductor/Biostrings) are needed.
 
 ## Load packages and the file
 ```
 library(tidyverse)
 library(Biostrings)
 
-NCBI_ClassifiedSeqs = read_delim("~/UFL Dropbox/Forrest Lefler/Laughinghouse_Lab/CyanoSeq/V1.3/NCBI_ClassifiedSeqs.tsv", 
+NCBI_ClassifiedSeqs = read_delim("NCBI_ClassifiedSeqs.tsv", 
     delim = "\t", escape_double = FALSE, trim_ws = TRUE)
 ```
 ## This will give you a df with ONLY Microcystis

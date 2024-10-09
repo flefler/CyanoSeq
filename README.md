@@ -1,8 +1,8 @@
 # CyanoSeq V1.3
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7864137.svg)](https://doi.org/10.5281/zenodo.7864137)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13910424.svg)](https://doi.org/10.5281/zenodo.13910424)
 
-[Current version: 1.3](https://zenodo.org/record/)
+[Current version: 1.3](https://zenodo.org/record/13910424)
 
 CyanoSeq is published in the Journal of Phycology: https://doi.org/10.1111/jpy.13335
 

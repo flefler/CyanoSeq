@@ -23,9 +23,9 @@ A few changes have been made since the last version, which are noted in the [cha
 
 ## Files
 
-Two fastq.qz files are provdied for taxonomic assignment using the "assignTaxonomy" function in [DADA2](https://benjjneb.github.io/dada2/tutorial.html) and [IdTaxa](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0521-5) classifiers. IDTAXA files have not been tested, please let me know if these work or not.
+fastq.qz files are provdied for taxonomic assignment using the "assignTaxonomy" function in [DADA2](https://benjjneb.github.io/dada2/tutorial.html) and [IdTaxa](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0521-5) classifiers. IDTAXA files have not been tested, please let me know if these work or not.
 
-Scripts are now provided to create [QIIME2](https://docs.qiime2.org/2022.8/) classifiers. Thanks to Lucija Kranjer. Necessary files for are provided.
+In addition to basic [QIIME2](https://docs.qiime2.org/2022.8/) classifier, scripts are  provided to create primer specific [QIIME2](https://docs.qiime2.org/2022.8/) classifiers. Thanks to Lucija Kranjer. Necessary files for are provided. CyanoSeqV1.3_\****\_sequences.fasta are the sequeces, with headers as the genbank accession numbers. CyanoSeqV1.3_\****\_taxonomy.fasta are the taxonomic header. 
 
 CyanoSeqV1.3_dada2.fastq.gz is the Cyanobacterial data bases which contains 4174 cyanobacterial sequences with 123 chloroplast and bacterial sequences. This should only be used with cyanobacterial specific primers (i.e., those described by [Nübel et al., 1997](https://journals.asm.org/doi/10.1128/aem.63.8.3327-3332.1997)) 
 
